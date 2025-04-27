@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header,
+.hero,
+footer {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #0077cc;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+header p {
+    font-size: 1.2em;
+}
+
+.hero {
+    padding: 100px 0;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.card {
+    background: #f0f8ff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: #e0f0ff;
+}
+
+.card-body {
+    padding: 20px 21px;
+}
+
+footer {
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+#Intro,
+#contact {
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+#contact {
+    margin-bottom: 10px;
+}
+
+#Intro aside,
+#contact aside {
+    text-align: center;
+}
+
+#Intro aside {
+    float: right;
+    width: 25%;
+    margin-left: 20px;
+}
+
+#Intro .content {
+    float: left;
+    width: 70%;
+}
+
+#contact aside {
+    float: left;
+    width: 35%;
+    margin-right: 20px;
+}
+
+#contact .content {
+    float: right;
+    width: 60%;
+}
+
+#feature,
+#contact-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#contact form {
+    width: 100%;
+}
+
+#contact .form-group {
+    margin-bottom: 10px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact .btn {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#contact .btn:hover {
+    background: #0056b3;
+}
+
+#stats .border {
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+#stats .border:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-color: #4facfe !important;
+}
+
+#stats h3 {
+    color: #4facfe;
+}
